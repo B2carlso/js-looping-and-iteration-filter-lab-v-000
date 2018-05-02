@@ -7,5 +7,5 @@ function fuzzyMatch (drivers, query) {
 }
 
 function matchName (drivers, query) {
-  return drivers.filter(function(driver) {return driver.name} === query)
+  return drivers.filter(function(driver) {return driver.name === query})
 }
